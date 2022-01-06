@@ -1,0 +1,9 @@
+{
+  "name": "grafana-7.4.3",
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "./bin/grafana-server web"
+  },
+  "main": "index.js",
+  "license": "MIT"
+}
