@@ -1,0 +1,17 @@
+{
+  "type": "panel",
+  "name": "aimfocus",
+  "id": "yujiahua163",
+  "state": "alpha",
+
+  "info": {
+    "author": {
+      "name": "yujiahua",
+      "url": "xx"
+    },
+    "logos": {
+      "small": "img/aimfocus.svg",
+      "large": "img/aimfocus.svg"
+    }
+  }
+}

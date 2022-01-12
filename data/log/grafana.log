@@ -316,3 +316,26 @@ t=2022-01-06T16:44:19+0800 lvl=eror msg="Invalid username or password" logger=co
 t=2022-01-06T16:44:19+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=POST path=/login status=401 remote_addr=[::1] time_ms=0 size=42 referer=http://localhost:3000/login
 t=2022-01-06T16:44:52+0800 lvl=info msg="Successful Login" logger=http.server User=admin@localhost
 t=2022-01-06T16:45:02+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=POST path=/api/user/password/reset status=400 remote_addr=[::1] time_ms=7 size=52 referer=http://localhost:3000/login
+t=2022-01-12T15:48:41+0800 lvl=info msg="Starting Grafana" logger=server version=7.4.3 commit=010f20c1c8 branch=HEAD compiled=2021-02-24T18:29:10+0800
+t=2022-01-12T15:48:41+0800 lvl=info msg="Config loaded from" logger=settings file=/Users/yujiahua/GitHub/GitLab/grafana-7.4.3/conf/defaults.ini
+t=2022-01-12T15:48:41+0800 lvl=info msg="Path Home" logger=settings path=/Users/yujiahua/GitHub/GitLab/grafana-7.4.3
+t=2022-01-12T15:48:41+0800 lvl=info msg="Path Data" logger=settings path=/Users/yujiahua/GitHub/GitLab/grafana-7.4.3/data
+t=2022-01-12T15:48:41+0800 lvl=info msg="Path Logs" logger=settings path=/Users/yujiahua/GitHub/GitLab/grafana-7.4.3/data/log
+t=2022-01-12T15:48:41+0800 lvl=info msg="Path Plugins" logger=settings path=/Users/yujiahua/GitHub/GitLab/grafana-7.4.3/data/plugins
+t=2022-01-12T15:48:41+0800 lvl=info msg="Path Provisioning" logger=settings path=/Users/yujiahua/GitHub/GitLab/grafana-7.4.3/conf/provisioning
+t=2022-01-12T15:48:41+0800 lvl=info msg="App mode production" logger=settings
+t=2022-01-12T15:48:41+0800 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2022-01-12T15:48:41+0800 lvl=warn msg="SQLite database file has broader permissions than it should" logger=sqlstore path=/Users/yujiahua/GitHub/GitLab/grafana-7.4.3/data/grafana.db mode=-rw-r--r-- expected=-rw-r-----
+t=2022-01-12T15:48:41+0800 lvl=info msg="Starting DB migrations" logger=migrator
+t=2022-01-12T15:48:41+0800 lvl=info msg="Starting plugin search" logger=plugins
+t=2022-01-12T15:48:41+0800 lvl=warn msg="The following files were not included in the signature" logger=plugins plugin=input files=[.DS_Store]
+t=2022-01-12T15:48:41+0800 lvl=info msg="Registering plugin" logger=plugins id=input
+t=2022-01-12T15:48:41+0800 lvl=warn msg="Plugin missing module.js" logger=plugins name=aimfocus warning="Missing module.js, If you loaded this plugin from git, make sure to compile it." path=/Users/yujiahua/GitHub/GitLab/grafana-7.4.3/data/plugins/aimfocus/module.js
+t=2022-01-12T15:48:41+0800 lvl=info msg="Registering plugin" logger=plugins id=aimfocus
+t=2022-01-12T15:48:41+0800 lvl=info msg="HTTP Server Listen" logger=http.server address=[::]:3000 protocol=http subUrl= socket=
+t=2022-01-12T15:48:58+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-01-12T15:48:58+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/d/Bhdtil0nk/new-dashboard-copy status=302 remote_addr=[::1] time_ms=0 size=29 referer=
+t=2022-01-12T15:49:04+0800 lvl=info msg="Successful Login" logger=http.server User=admin@localhost
+t=2022-01-12T15:50:43+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/public/plugins/aimfocus/module.js status=404 remote_addr=[::1] time_ms=2 size=32661 referer="http://localhost:3000/d/Bhdtil0nk/new-dashboard-copy?editPanel=4&orgId=1"
+t=2022-01-12T16:38:31+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/public/plugins/aimfocus/module.js status=404 remote_addr=[::1] time_ms=2 size=32661 referer=http://localhost:3000/plugins/aimfocus/
+t=2022-01-12T18:08:57+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/public/plugins/aimfocus/module.js status=404 remote_addr=[::1] time_ms=2 size=32661 referer="http://localhost:3000/d/Bhdtil0nk/new-dashboard-copy?editPanel=4&orgId=1"
